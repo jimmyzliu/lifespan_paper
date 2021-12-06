@@ -4,7 +4,7 @@
 # z_mat: numeric genotype matrix of variants (rows) and individuals (columns) in a gene to be collapsed
 # covar_mat: numeric matrix of covariates
 # start_time: numeric vector of ages at recruitment
-# end time: numeric vector of ages at death or ages at censoring date
+# end_time: numeric vector of ages at death or ages at censoring date
 # ev: vector of events (0s and 1s) indicating whether individual is dead
 
 library(survival)
